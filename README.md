@@ -1,4 +1,4 @@
-# Exercise 01 - Exception Handling 
+# Exercises - Exception Handling 
 ## Exception Handling in C++
 
 - Exceptions are run-time anomalies that a program encounters during its execution. 
@@ -20,4 +20,17 @@ Following are main advantages of exception handling over traditional error handl
       In C++, a function can specify the exceptions that it throws using the throw keyword. The caller of this function must handle the exception in some way (either by specifying it again or catching it)
 
 3.Grouping of Error Types: In C++, both basic types and objects can be thrown as exception. We can create a hierarchy of exception objects, group exceptions in namespaces or classes, categorize them according to types.
+
+
+
+### Exercises:
+- [Exercise 01](https://github.com/kamrankb/FastAP/tree/exception-handling/Exercise01)
+- [Exercise 02](https://github.com/kamrankb/FastAP/tree/exception-handling/Exercise02)
+- [Exercise 03](https://github.com/kamrankb/FastAP/tree/exception-handling/Exercise03)
+- [Exercise 04](https://github.com/kamrankb/FastAP/tree/exception-handling/Exercise04)
+- [Exercise 05](https://github.com/kamrankb/FastAP/tree/exception-handling/Exercise05)
+- [Exercise 06](https://github.com/kamrankb/FastAP/tree/exception-handling/Exercise06)
+- [Exercise 07](https://github.com/kamrankb/FastAP/tree/exception-handling/Exercise07)
+- [Exercise 08](https://github.com/kamrankb/FastAP/tree/exception-handling/Exercise08)
+- [Exercise 09](https://github.com/kamrankb/FastAP/tree/exception-handling/Exercise09)
 
