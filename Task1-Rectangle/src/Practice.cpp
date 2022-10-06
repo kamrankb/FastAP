@@ -21,14 +21,11 @@ public:
 
 	void setLength(float lengthValue) {
 		try {
-			if(lengthValue > 20) {
-				throw(lengthValue);
-			} else if(lengthValue < 0) {
-				throw(lengthValue);
+			if(lengthValue > 0 && lengthValue < 20.00) {
+				length = lengthValue;
+			} else {
+				throw(lengthValue);	
 			}
-
-			length = lengthValue;
-
 		} catch(float error) {
 			std::cout << "\nLength should be greater than 0.00 and less than 20.00";
 		}
@@ -36,14 +33,11 @@ public:
 
 	void setWidth(float widthValue) {
 		try {
-			if(widthValue > 20) {
-				throw(widthValue);
-			} else if(widthValue < 0) {
-				throw(widthValue);
+			if(widthValue > 0 && widthValue < 20.00) {
+				length = widthValue;
+			} else {
+				throw(widthValue);	
 			}
-
-			width = widthValue;
-
 		} catch(float error) {
 			std::cout << "\nWidth should be greater than 0.00 and less than 20.00";
 		}
